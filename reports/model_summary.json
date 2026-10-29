@@ -1,0 +1,24 @@
+{
+  "dataset": "synthetic_daily_revenue",
+  "rows_total": 730,
+  "train_rows": 572,
+  "test_rows": 144,
+  "forecast_metrics": {
+    "hist_gradient_boosting": {
+      "mae": 77.088,
+      "rmse": 111.763,
+      "wape": 0.04646
+    },
+    "seasonal_naive_7_day": {
+      "mae": 97.898,
+      "rmse": 144.976,
+      "wape": 0.05901
+    }
+  },
+  "anomaly_detection": {
+    "alerts_in_test_period": 40,
+    "injected_events_in_test_period": 4,
+    "injected_events_flagged": 4,
+    "note": "Alerts are investigation candidates, not confirmed errors."
+  }
+}\n
